@@ -1,0 +1,16 @@
+﻿{
+"appTitle" : "Islami",
+  "quranTab" : "Quran",
+"surahName" : "Surah Name",
+"ayatNumber" : "Ayat Number",
+  "hadethTab" : "Hadeth",
+  "ahadethTitle" : "Alahadeth",
+  "sebbhaTab" : "Sebha",
+  "radioTab" : "Radio",
+  "settingsTab" : "Settings",
+  "language" : "Language",
+  "theme" : "Theme",
+  "light" : "Light",
+  "dark" : "Dark",
+  "tasbehNumber" : "Tasbeh Number"
+}
