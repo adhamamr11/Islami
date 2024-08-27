@@ -1,0 +1,17 @@
+{
+  "appTitle" : "اسلامى",
+  "quranTab" : "القران",
+  "surahName" : "اسم السورة",
+  "ayatNumber" : "عدد الايات",
+  "hadethTab" : "الحديث",
+  "ahadethTitle" : "الاحاديت",
+  "sebbhaTab" : "السبحة",
+  "radioTab" : "الراديو",
+  "settingsTab" : "الاعدادات",
+  "language" : "اللغة",
+  "theme" : "المظهر",
+  "light" : "نهارى",
+  "dark" : "ليلى",
+  "tasbehNumber" : "عدد التسبيحات"
+
+}

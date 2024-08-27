@@ -10,14 +10,14 @@ class SurahTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, SurahContant.routeName,arguments: surahDetails(index, title));
+        Navigator.pushNamed(context, SurahContant.routeName,arguments: surahDetails(title,index,));
       },
       child: Text(
           textAlign: TextAlign.center,
         title,
-        style: TextStyle(
-            color: Colors.black, fontSize: 20, fontWeight: FontWeight.w500),
+        style: Theme.of(context).textTheme.titleSmall,
       ),
     );
   }
+
 }

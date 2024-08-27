@@ -3,7 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:islami/UI/Home/home_screen.dart';
 
+import '../../proviver/settings_provider.dart';
 import '../ui_utils.dart';
+import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -30,9 +32,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-
+    var settingsProvider = Provider.of<SettingsProvider>(context);
     return Scaffold(
-      body: Image.asset(getImagePath("splash.png"),
+      body: Image.asset(settingsProvider.isDarkModeEnable() ? getImagePath("splash_dark.png")
+          :getImagePath("splash.png"),
           fit: BoxFit.cover,
         height: double.infinity,),
     );
